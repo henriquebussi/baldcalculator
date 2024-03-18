@@ -1,0 +1,56 @@
+:root{
+  --clr-greyscreen: #8C8184;
+  --clr-greyupperscreen: #E5D3D8;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(41, 41, 41);
+}
+
+.calculate{
+  color: white;
+  background-color: black;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 5px;
+  align-self: center;
+}
+
+/* .corpocalculadora{
+  border: 1px solid white;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+} */
+
+#telaprinc{
+  background-color: var(--clr-greyscreen);
+  width: 237px;
+  height: 60px;
+  border: solid rgb(255, 255, 255) 2px;
+}
+#telaprinc_pai{
+  display: flex;
+  justify-content: center;
+}
+
+.calculatebody{
+  background-color: black;
+}
+
+#tela1{
+  background-color: var(--clr-greyupperscreen);
+  height: 10px;
+  margin-bottom: 10px;
+  border: 2px rgb(98, 98, 98) solid;
+  font-size: 5px;
+}
